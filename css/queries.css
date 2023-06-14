@@ -1,0 +1,36 @@
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 34em) {
+  html {
+    font-size: 44%;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+    column-gap: 2.4rem;
+  }
+
+  .profile-box-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .profile-name {
+    font-size: 2.4rem;
+  }
+
+  .profile-jobs {
+    font-size: 1.8rem;
+  }
+}

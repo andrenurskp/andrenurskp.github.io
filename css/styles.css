@@ -32,7 +32,7 @@ main section:nth-child(even) {
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 2.4rem;
+  padding: 1.4rem;
 }
 
 .flex {
@@ -42,6 +42,9 @@ main section:nth-child(even) {
 .flex--column {
   flex-direction: column;
   gap: 1.2rem;
+}
+.flex--column.no-gap {
+  gap: 0;
 }
 
 .flex--center {
@@ -60,8 +63,8 @@ main section:nth-child(even) {
 }
 
 .heading-primary {
-  font-size: 3.6rem;
-  color: #495057;
+  font-size: 2.5rem;
+  color: #1864ab;
 }
 
 /*********************************/
@@ -72,7 +75,7 @@ main section:nth-child(even) {
 }
 
 .header-profile {
-  margin: 6.4rem;
+  margin: 3.5rem;
   text-align: center;
 }
 
@@ -88,6 +91,10 @@ main section:nth-child(even) {
   color: #fff;
 }
 
+.profile-box-contacts{
+  margin-top: 1.6rem;
+}
+
 .profile-name {
   font-size: 3.6rem;
   font-weight: 700;
@@ -98,15 +105,14 @@ main section:nth-child(even) {
 }
 
 .profile-contacts {
-  margin-top: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .profile-contact-icon {
-  height: 2.4rem;
-  width: 2.4rem;
+  height: 1.8rem;
+  width: 1.8rem;
   color: #fff;
   padding-right: 0.2rem;
 }
@@ -122,20 +128,24 @@ main section:nth-child(even) {
 /* ABOUT ME SECTION */
 /*********************************/
 .about-me-desc {
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   line-height: 1.3;
 }
 
 /*********************************/
 /* EDUCATION SECTION */
 /*********************************/
+.education-name{
+  font-size: 2rem;
+}
+
 .education-graduate-list {
   list-style: none;
   font-size: 3rem;
 }
 
 .education-field {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /*********************************/
@@ -147,22 +157,22 @@ main section:nth-child(even) {
 
 .skill-list {
   list-style: none;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
 }
 
 /*********************************/
 /* WORKS SECTION */
 /*********************************/
 .work-title {
-  font-size: 3rem;
-}
-
-.work-company {
   font-size: 2rem;
 }
 
+.work-company {
+  font-size: 1.5rem;
+}
+
 .work-list {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   padding-left: 2rem;
   line-height: 1.3;
 }

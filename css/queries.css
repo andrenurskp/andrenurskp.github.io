@@ -23,7 +23,7 @@
   .profile-box-contacts {
     display: flex;
     flex-direction: column;
-    gap: 0;
+    gap: 0.3rem;
   }
 
   .profile-name {
